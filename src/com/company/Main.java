@@ -32,21 +32,21 @@ public class Main {
         double averageRain2011 = averageRain[0];
         double averageRain2020 = averageRain[1];
 //      Assignment 3.
-//        tempStats(temp2011, temp2020);
+        tempStats(temp2011, temp2020);
 //      Assignment 4.
-//        highestAndLowest(temp2011, temp2020);
+        highestAndLowest(temp2011, temp2020);
 //      Assignment 5.
-//        higherThanAverage(temp2011, averageTemp2011);
+        higherThanAverage(temp2011, averageTemp2011);
 //      Assignment 6.
-//        rainyDays(rain2011, day2011, rain2020, day2020);
+        rainyDays(rain2011, day2011, rain2020, day2020);
 //      Assignment 7.
-//        lowerThanAverageRain(rain2020, averageRain2020);
+        lowerThanAverageRain(rain2020, averageRain2020);
 //      Assignment 9.
-//        tempHigherIn2020(temp2011, day2011, temp2020, day2020);
+        tempHigherIn2020(temp2011, day2011, temp2020, day2020);
 //      Assignment 10.
-//        between4and6(temp2020);
+        between4and6(temp2020);
 //      Assignment 11.
-//        sortTemp(temp2011);
+        sortTemp(temp2011);
 
     }
 
@@ -260,7 +260,7 @@ public class Main {
             }
         }
         System.out.println("The following array shows a list of dates where the temperature was higher in January 2020 in comparison to January 2011: ");
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array) + "\n");
     }
 
     public static void between4and6(double[] temp2020) {
@@ -271,7 +271,7 @@ public class Main {
             }
         }
         System.out.println("The amount of days where the temperature in January 2020 " +
-                "was higher than 4 degrees and less than/equal to 6 degrees: " + count);
+                "was higher than 4 degrees and less than/equal to 6 degrees: " + count + "\n");
 
     }
 
@@ -280,7 +280,7 @@ public class Main {
         System.out.println("The following array is a list of temperatures that was measured throughout January 2011. " +
                 "They are sorted from lowest to highest temperature: ");
         System.out.println(Arrays.toString(temp2011));
-        System.out.println("The median of this array is: " + temp2011[temp2011.length / 2]);
+        System.out.println("The median of this array is: " + temp2011[temp2011.length / 2] + "\n");
     }
 }
 
